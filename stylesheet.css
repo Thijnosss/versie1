@@ -1,0 +1,67 @@
+.title {
+    display: block;
+    height: 200;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 200;
+}
+
+.verhalen {
+    display: block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 200;
+    padding: 0px;
+}
+
+h2{
+    color: white;
+    font-family: sans-serif;
+}
+
+h4 {
+    color: white;
+    font-family: sans-serif;
+}
+
+hr {
+    position: relative;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+
+div {
+    background-color: azure;
+    background-image: url(Imagesnurks/boek.jpg);
+    background-position: center;
+    background-size:cover;
+    margin-top: 100px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: white;
+
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+
+}
+
+nav li a {
+    float: left;
+    display: inline;
+    color: grey;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
+    padding-left: 0px;
+    margin-left: -10px;
+    text-decoration: none;
+    text-decoration-color: black;
+}

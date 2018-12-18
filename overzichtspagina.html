@@ -2,39 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+
     <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <img src="Imagesnurks/1x/Middel%202.png" alt="Logo nurks" class="title" width="50" />
+
+
+        <img src="Imagesnurks/1x/Middel%202.png" alt="Logo nurks" class="title" />
+         <hr>
+        <h1 class="verhalen">Verhalen voor op reis</h1>
+
+
+
+        <nav>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="Over.html" class="current">Over ons</a></li>
+                <li><a href="Contact.html" class="current">Contact</a></li>
+                <li> <a href="Gallerij.html" class="current">Gallerij</a></li>
+            </ul>
+        </nav>
+
 
     </header>
 
-    <h2>Filteren en sorteren</h2>
-    <h4>Genre:</h4>
-    <form>
-        <select name="Genres">
+    <div>
+        <h2>Filteren en sorteren</h2>
+
+        <h4>Genre:</h4>
+
+        <form>
+            <select name="Genres">
     <option value="Spannend">Spannend</option>
     <option value="Romantisch">Romantisch</option>
     <option value="Eng">Eng</option>
     <option value="Grappig">Grappig</option>
   </select>
-    <h4>Auteur:</h4>
-        <select name="Auteur">
-    <option value="Spannend">Molovic</option>
-    <option value="Romantisch">Oud Zeikwijf</option>
-    <option value="Eng">Joost Zwagerman</option>
-    <option value="Grappig">Iets anders leuks</option>
-  </select>
+            <h4>Auteur:</h4>
 
+            <input type="text" name="Auteur">
+            <br><br>
+            <input type="submit">
+        </form>
 
-        <br><br>
-        <input type="submit">
-    </form>
+    </div>
 
-    <h2> Resultaten </h2>
+    <h2> Populair </h2>
 
     <main>
         <article>
